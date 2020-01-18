@@ -6,12 +6,21 @@ li {
 form {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  
   align-items: center;
   margin: 1rem;
 }
 
+.App > * {
+  border-style: solid;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
